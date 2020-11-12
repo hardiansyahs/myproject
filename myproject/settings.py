@@ -25,8 +25,8 @@ SECRET_KEY = 'f_lef%798c$=g8*2o4a8z0j=fn=@%10#p*=m=za8)(psujcj&t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['54.156.128.8']
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['54.156.128.8']
+# ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dbanalytic',
+        'NAME': 'DBanalytic',
         'USER': 'indosat',
-	'PASSWORD': 'ooredoo',
+	    'PASSWORD': 'ooredoo',
         'HOST': 'localhost',
-	'PORT': '5432',
+	    'PORT': '5432',
     }
 }
 
