@@ -1,0 +1,39 @@
+Watching for file changes with StatReloader
+[12/Nov/2020 05:46:12] "GET /api/employee/ HTTP/1.1" 200 50
+[12/Nov/2020 05:46:42] "GET /api/employee/ HTTP/1.1" 200 50
+[12/Nov/2020 05:46:44] "GET /api/employee/ HTTP/1.1" 200 50
+[12/Nov/2020 06:16:02] "GET /api/employee/ HTTP/1.1" 200 9018
+[12/Nov/2020 06:16:02] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[12/Nov/2020 06:16:03] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+[12/Nov/2020 06:16:03] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[12/Nov/2020 06:16:03] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[12/Nov/2020 06:16:03] "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+[12/Nov/2020 06:16:03] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[12/Nov/2020 06:16:03] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+[12/Nov/2020 06:16:03] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[12/Nov/2020 06:16:03] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[12/Nov/2020 06:16:03] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[12/Nov/2020 06:16:03] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Not Found: /favicon.ico
+[12/Nov/2020 06:16:05] "GET /favicon.ico HTTP/1.1" 404 2082
+[12/Nov/2020 06:16:17] "OPTIONS /api/employee/ HTTP/1.1" 200 10142
+[12/Nov/2020 06:16:17] "GET /api/employee/ HTTP/1.1" 200 9018
+[12/Nov/2020 06:16:18] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[12/Nov/2020 06:16:18] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[12/Nov/2020 06:16:18] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[12/Nov/2020 06:16:18] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+[12/Nov/2020 06:16:18] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[12/Nov/2020 06:16:18] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+[12/Nov/2020 06:16:19] "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+[12/Nov/2020 06:16:19] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[12/Nov/2020 06:16:19] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[12/Nov/2020 06:16:19] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[12/Nov/2020 06:16:19] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+Not Found: /favicon.ico
+[12/Nov/2020 06:16:20] "GET /favicon.ico HTTP/1.1" 404 2082
+[12/Nov/2020 06:16:22] "OPTIONS /api/employee/ HTTP/1.1" 200 10142
+[12/Nov/2020 06:16:24] "GET /api/employee/ HTTP/1.1" 200 9018
+[12/Nov/2020 06:21:30] "GET /api/employee/ HTTP/1.1" 200 50
+[12/Nov/2020 06:21:58] "POST /api/employee/ HTTP/1.1" 201 9019
+[12/Nov/2020 06:22:02] "GET /api/employee/ HTTP/1.1" 200 9158
+[12/Nov/2020 06:22:07] "GET /api/employee/ HTTP/1.1" 200 100

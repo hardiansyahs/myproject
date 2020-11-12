@@ -25,7 +25,7 @@ SECRET_KEY = 'f_lef%798c$=g8*2o4a8z0j=fn=@%10#p*=m=za8)(psujcj&t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['54.156.128.8']
 
 
 # Application definition
@@ -79,9 +79,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'DBanalytic',
-        'USER': 'postgres',
-        'PASSWORD': 'kaumkusam25',
-        'HOST': 'localhost'
+        'USER': 'indosat',
+	'PASSWORD': 'ooredoo',
+        'HOST': 'localhost',
+	'PORT': '5432',
     }
 }
 
