@@ -12,10 +12,11 @@ from django.contrib import messages
 # Create your views here.
 from .models import *
 
+
 @api_view(['POST'])
 def loginPage(request):
     if request.user.is_authenticated:
-        isValid = {'isValid':True}
+        isValid = {'isValid': True}
         return JsonResponse(isValid)
     else:
         if request.method == 'POST':
@@ -28,7 +29,10 @@ def loginPage(request):
                 login(request, user)
                 return JsonResponse(isValid)
             else:
-                isValid = {'isValid':False}
+                isValid = {'isValid': False}
                 return JsonResponse(isValid)
-#		context = {}
-#		return render(request, 'accounts/login.html', context)
+
+
+def logoutUser(request):
+    logout(request)
+    return redirect('login')

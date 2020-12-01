@@ -79,13 +79,26 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'DBanalytic',
-        'USER': 'indosat',
-	    'PASSWORD': 'ooredoo',
+        'NAME': 'customerDB',
+        'USER': 'postgres',
+        'PASSWORD': '1234',
         'HOST': 'localhost',
-	    'PORT': '5432',
+        'PORT': '5432',
     }
 }
+
+# Database Tony
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'DBanalytic',
+#         'USER': 'indosat',
+#    	    'PASSWORD': 'ooredoo',
+#         'HOST': 'localhost',
+#    	    'PORT': '5432',
+#     }
+# }
 
 
 # Password validation

@@ -7,4 +7,7 @@ class EmployeeViewset(viewsets.ModelViewSet):
     queryset = models.Employee.objects.all()
     serializer_class = serializers.EmployeeSerializer
 
-# list(), retrieve(), create(), update, destroy()
+
+class CustomertargettingViewset(viewsets.ModelViewSet):
+    queryset = models.Customertargetting.objects.all()
+    serializer_class = serializers.Customertargetting
